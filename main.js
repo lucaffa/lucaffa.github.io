@@ -76,7 +76,7 @@ do {
 
         calcularPrecioTotal()
 
-    } while (isNaN(cantidad))
+    } while (isNaN(cantidad) || cantidad < 1)
 
     do{
         continuar = prompt(nombre + " ¿Desea proceder con el pago o realizar un cambio en el pedido?" + "\n" + "1- Pagar" + "\n" + "2- Realizar cambio")
