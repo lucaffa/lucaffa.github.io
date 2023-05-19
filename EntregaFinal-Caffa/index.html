@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger City</title>
+    <!-- Tostify CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">        
+    <!-- CSS Font Awesome -->
+    <script src="https://kit.fontawesome.com/015105e245.js" crossorigin="anonymous"></script>
+    <!-- CSS Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Krona+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header-container nav justify-content-center">
+                <img class="brand-logo" src="./assets/img/logo.png" alt="">
+            </div>
+    
+			<aside>
+				<div class="aside-section aside-left navbar-light navbar-expand-lg">
+					<div class="aside-content">
+						<div class="container">
+							<ul class="nav navbar-nav justify-content-center navbar-container">
+								<li class="nav-item menu-padding">
+                                    <a class="nav-link menu-txt active" href="./index.html">Menú</a>
+                                </li>
+								<li class="nav-item menu-padding">
+                                    <a class="nav-link menu-txt" href="./carrito.html"><i class="bi bi-basket-fill"></i> Pedido (<span id="number" class="number">0</span>)</a>
+                                </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</aside>
+        </div>
+    </header>
+    <main>
+        <div class="black-line d-flex flex-column"></div>
+        <!--slider -->
+        <div class="top-picture">
+            <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/img1.jpg" class="d-block slider-img" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/img2.jpg" class="d-block slider-img" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/img3.jpg" class="d-block slider-img" alt="...">
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="black-line d-flex flex-column"></div>
+        <!-- Content -->
+        <div class="content-box">
+
+            <div class="container content">
+
+                <div class="row">
+                    
+                    <div class="col-sx-1 col-sm-12 col-md-12">
+                        <div id="contenedor-productos" class="row"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="black-line d-flex flex-column"></div>
+        <div class="footer-container">
+            <div class="row">
+                <div class="col-12 d-none d-sm-block">
+                    <p class="product-title fs-6 text-uppercase text-wrap social-title">Síguenos</p>
+                </div>
+                <div class="col-12 social-col d-none d-sm-block">
+                    <a href="">
+                        <i class="bi bi-facebook social-icon"></i>
+                    </a>
+                    <a href="">
+                        <i class="bi bi-whatsapp social-icon"></i>
+                    </a>
+                    <a href="">
+                        <i class="bi bi-instagram social-icon"></i>
+                    </a>
+                    <a href="">
+                        <i class="bi bi-linkedin social-icon"></i>
+                    </a>
+
+                </div>
+            </div>
+            
+        </div>
+
+    </footer>
+    <!-- Tostify JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>   
+    
+    <script src="./main.js"></script>
+    
+</body>
+</html>

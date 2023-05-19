@@ -1,0 +1,44 @@
+[
+    {
+        "id": "prod1",
+        "nombre": "MANHATTAN BURGER",
+        "descripcion": "Carne, lechuga, tomate, mayonesa, jamón, muzzarella, crispy bacon, huevo frito.",
+        "precio": 435,
+        "img": "./assets/img/prod1.png"
+    },
+    {
+        "id": "prod2",
+        "nombre": "BROOKLYN BURGER",
+        "descripcion": "Carne, cebolla caramelizada, salsa bbq, crispy bacon, cheddar.",
+        "precio": 435,
+        "img": "./assets/img/prod2.png"
+    },
+    {
+        "id": "prod3",
+        "nombre": "NYC BURGER",
+        "descripcion": "Carne, cebolla caramelizada, queso emmenthal, crispy bacon, aros de cebolla, salsa bbq.",
+        "precio": 435,
+        "img": "./assets/img/prod3.png"
+    },
+    {
+        "id": "prod4",
+        "nombre": "LAS VEGAS BURGER",
+        "descripcion": "Carne, crispy bacon, aros de cebolla, salsa cheddar.",
+        "precio": 435,
+        "img": "./assets/img/prod4.png"
+    },
+    {
+        "id": "prod5",
+        "nombre": "PHILADELPHIA BURGER",
+        "descripcion": "2 carne, cebolla, mostaza, ketchup, doble cheddar.",
+        "precio": 505,
+        "img": "./assets/img/prod5.png"
+    },
+    {
+        "id": "prod6",
+        "nombre": "VEGGIE BURGER",
+        "descripcion": "Burger de espinaca, mayonesa, lechuga crisp, tomate, huevo duro, queso emmenthal, cebolla",
+        "precio": 450,
+        "img": "./assets/img/prod6.png"
+    }
+]
